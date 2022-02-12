@@ -9,6 +9,6 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         float hInput = Input.GetAxis("Horizontal");
-        transform.Rotate(new Vector3(0, -hInput*RotateSpeed, 0));
+        transform.Rotate(new Vector3(0, -hInput * RotateSpeed * Time.deltaTime, 0));
     }
 }
