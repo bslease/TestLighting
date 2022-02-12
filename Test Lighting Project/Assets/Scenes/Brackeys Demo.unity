@@ -785,6 +785,7 @@ GameObject:
   - component: {fileID: 1917077029}
   - component: {fileID: 1917077028}
   - component: {fileID: 1917077030}
+  - component: {fileID: 1917077031}
   m_Layer: 0
   m_Name: Camera Rig
   m_TagString: Untagged
@@ -839,3 +840,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateSpeed: 20
+  IdleRotateSpeed: 5
+  maxIdleTime: 3
+--- !u!111 &1917077031
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917077027}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: f6bfe472cdcb8f946b3ccdea09e1a462, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: f6bfe472cdcb8f946b3ccdea09e1a462, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
