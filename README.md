@@ -1,6 +1,8 @@
 # TestLighting
  
-use arrow keys to rotate  
+arrow keys to rotate  
+space to test light probes (dynamic lighting)  
+L to toggle light probes  
 play: https://bslease.github.io/TestLighting/  
 
 credits  
