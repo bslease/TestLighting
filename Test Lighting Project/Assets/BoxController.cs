@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BoxController : MonoBehaviour
 {
-    public float moveSpeed = 20.0f;
+    public float moveSpeed = 15.0f;
     public float jumpForce = 5.0f;
     private Rigidbody rb;
     private bool doJump;
